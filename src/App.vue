@@ -76,15 +76,15 @@ const projects = ref([
     subtitle: 'Automation Platform (IFTTT-style)',
     description: 'Full-stack development (server, web, mobile) to connect services (Gmail, OneDrive, etc.) via automated actions/reactions.',
     tags: ['Vue.js', 'React Native', 'Go', 'Docker', 'OAuth2'],
-    images: [],
+    images: ['/projects/area1.png', '/projects/area2.png'],
     link: '#'
   },
   {
-    title: 'ARCADE',
-    subtitle: 'C++ Game Engine (OOP)',
-    description: 'Creation of a virtual arcade machine with games (Pac-Man, Snake) supporting 3 graphical libraries (SFML, ncurses, SDL2).',
-    tags: ['C++', 'OOP', 'SFML', 'SDL2'],
-    images: [],
+    title: 'Epitrello',
+    subtitle: 'Project Management Platform',
+    description: 'Trello-inspired platform designed to help teams organize tasks, collaborate in real-time and track progress through a modern and high-performance interface.',
+    tags: ['Vue 3', 'Flask', 'PostgreSQL', 'Docker', 'TypeScript'],
+    images: ['/projects/epitrello1.png'],
     link: '#'
   },
   {
@@ -93,14 +93,6 @@ const projects = ref([
     description: "Developed a local AI solution for real-time voice recognition and translation on aircraft. This system facilitates seamless communication between crew and passengers by providing instant transcription and multi-language support without requiring an internet connection.",
     tags: ['AI', 'Python', 'Real-time', 'Innovation'],
     images: ['/projects/vueling1.png', '/projects/vueling2.png'],
-    link: '#'
-  },
-  {
-    title: 'Hackathon Onepoint',
-    subtitle: 'Eco-Tech Challenge',
-    description: 'Chatbot to raise awareness about the environmental impact of LLMs and promote eco-responsible AI.',
-    tags: ['LLM', 'Green AI', 'Chatbot'],
-    images: [],
     link: '#'
   }
 ]);
